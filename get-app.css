@@ -28,6 +28,7 @@ header {
     line-height: 27px;
     padding: 0 15px 0 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 .header_:hover {
     color: #302f2f;
