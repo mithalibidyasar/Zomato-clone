@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main_ {
+    height: 55vh;
+    width: 25vw;
+    background-color: white;
+    padding: 24px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5),
+              -5px -5px 10px 0px rgba(0,0,0,0.5);
+    margin-top: 20vh;
+}
+#main_top_ {
+    display: flex;
+}
+#signup_main {
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 65%;
+    margin-bottom: 25px;
+}
+.fa-xmark {
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: rgb(79, 79, 79);
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 94%;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+}
+#checkbox_condition {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#condition {
+    color: rgb(105, 105, 105);
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+#checkbox {
+    accent-color: #ef4f5f;
+    margin: 5px;
+    cursor: pointer;
+}
+.in-pink {
+    color: #ef4f5f;
+    text-decoration: none;
+}
+#create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14.5px;
+    color: rgba(249, 245, 245, 0.3);
+    border: 0.5px solid rgb(144, 142, 142);
+    background-color: rgb(144, 142, 142);
+    width: 98.25%;
+    height: 46px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#or_ {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(79, 79, 79);
+    text-align: center;
+}
+#google_signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 94%;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    background-color: white;
+    color: rgb(60, 64, 67);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.fa-google {
+    color: #ef4f5f;
+    font-size: 16px;
+    padding-right: 8px;
+}
+#main_bottom {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 25px;
+    border-top: 1px solid rgb(207, 207, 207);
+}
+#login- {
+    color: #ef4f5f;
+    text-decoration: none;
+}

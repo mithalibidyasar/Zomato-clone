@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(222, 220, 220);
+    display: flex;
+    align-items: center;
+}
+#logo_ {
+    background-image: url(./images/logo-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 160px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 45vw;
+}
+.header_ {
+    color: #696969;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+.header_:hover {
+    color: #302f2f;
+}
+#log_in {
+    margin-left: 150px;
+}
+#yellow-get-app-box_ {
+    height: 500px;
+    width: 100vw;
+    background-color: white;
+    margin-top: 120px;
+    display: flex;
+}
+#inner-left_ {
+    display: flex;
+    align-items: center;
+}
+#image-app_ {
+    background-image: url(./images/get-app\ images.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 390px;
+    margin-left: 280px;
+}
+#heading-get-app_ {
+    color: rgb(28, 28, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    margin: 75px 0 25px 45px;
+}
+#wsx_ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300px;
+    color: rgb(54, 54, 54);
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+.button_ {
+    color: #1c1c1c;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
+    cursor: pointer;
+}
+#email-button_ {
+    margin-left: 45px;
+    cursor: pointer;
+}
+#phone-button_ {
+    margin-left: 45px;
+    cursor: pointer;
+}
+.radio-button_ {
+    accent-color: #ee4e5e;
+}
+#email-input_ {
+    height: 20px;
+    width: 250px;
+    padding: 13px 12px 13px 12px;
+    border: 1px solid rgb(207, 207, 207);
+    color: rgb(28, 28, 28);
+    border-radius: 6px;
+    font-size: 16px;
+    outline-color: rgb(63, 152, 159);
+    outline-width: 0.5px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+#share-button_ {
+    height: 46px;
+    width: 150px;
+    padding: 13px 12px 13px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid rgba(16, 16, 16, 0.3);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(16, 16, 16, 0.3);
+    cursor: pointer;
+}
+#download-app_ {
+    color: #9c9c9c;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+#download-links_ {
+    display: flex;
+}
+.store_ {
+    width: 137px;
+    height: 40px;
+    color: rgb(0, 0, 238);
+    cursor: pointer;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+#play_store_ {
+    background-image: url(./images/playstore-get.webp);
+    margin-left: 45px;
+}
+#app_store_ {
+    background-image: url(./images/appstore-get.webp);
+    margin-left: 20px;
+}
+footer {
+    height: 450px;
+    width: 100%;
+    padding: 48px 0 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    margin-top: 30px;
+}
+#zomato-logo {
+    background-image: url(./images/logo-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 145px;
+    margin-left: 200px;
+    background-color: #f7f7f7;
+}
+#tgb {
+    display: flex;
+}
+#c1 {
+    margin-left: 210px;
+}
+.c1 {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 75px;
+}
+#top1 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+}
+.l1 {
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+#social_media {
+    display: flex;
+    gap: 12px;
+    position: relative;
+    left: 3px;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.store_footer {
+    height: 40px;
+    width: 135px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 0 20px 5px;
+    border-radius: 6px;
+}
+#play_store_footer {
+    background-image: url(./images/playstore-get.webp);
+}
+#app_store_footer {
+    background-image: url(./images/appstore-get.webp);
+}
+#footer_bottom {
+    color: rgb(105, 105, 105);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    border-top: 1px solid rgb(197, 194, 194);
+}
